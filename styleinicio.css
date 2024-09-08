@@ -104,3 +104,11 @@ header .titulo img {
     height: 100px;
     width: auto;
 }
+
+.rodape {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 33px 0;
+
+
+}
