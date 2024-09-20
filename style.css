@@ -179,3 +179,27 @@ align-items: center;
     width: 80px;
 
 }
+
+.rodape {
+    background-color: #0056b3;
+    color: white;
+    height: 15vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.rodape hr{
+    width: 15%;
+    margin: auto;
+}
+
+.inffacul{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: currentColor;
+}
