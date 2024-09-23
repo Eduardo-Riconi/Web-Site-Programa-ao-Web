@@ -108,12 +108,12 @@ header .titulo img {
 .rodape {
     background-color: #0056b3;
     color: white;
-    height: 15vh;
+    height: 19vh;
     display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 23px;
     font-weight: bold;
 }
 .rodape hr{
