@@ -129,6 +129,23 @@ a:visited{
     color: currentColor;
 }
 
+.nos{
+    width: 40%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+
+}
+
+.cards div {
+    margin: 10px; 
+    flex: 1; 
+    max-width: 300px; 
+}
+
 
 
 
