@@ -132,13 +132,14 @@ align-items: center;
 .rodape {
     background-color: #221d34;
     color: white;
-    height: 19vh;
+    height: 15vh;
     display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 23px;
+    padding-top: 25px;
     font-weight: bold;
+    position: relative;
 }
 .rodape hr{
     width: 15%;
@@ -150,11 +151,15 @@ align-items: center;
 }
 
 a:visited{
-    color: currentColor;
+    color: white;
 }
 
 .exe{
-    width: 80%;
+    width: 55%;
+}
+
+.nos{
+    width: 40%;
 }
 
 .cards{
@@ -169,6 +174,52 @@ a:visited{
     flex: 1; 
     max-width: 300px; 
 }
+
+.cards {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 170px; 
+    text-align: center; 
+}
+
+.cards div {
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.nos {
+    width: 100%; 
+    max-width: 250px; 
+    border-radius: 50%; 
+    margin-bottom: 15px; 
+}
+
+.cards h4 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cards p {
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
 
 
 
