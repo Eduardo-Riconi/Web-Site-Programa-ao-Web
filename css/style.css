@@ -137,9 +137,10 @@ align-items: center;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 35px;
     font-weight: bold;
     position: relative;
+    margin-top: 6vh;
 }
 .rodape hr{
     width: 15%;
@@ -210,6 +211,44 @@ a:visited{
     font-size: 14px;
     color: white;
     line-height: 1.5;
+}
+
+@media (max-width: 680px) {
+
+
+    header .menu a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+
+    header .titulo img {
+        height: 70px;
+        width: auto;
+    }
+
+    header .social button {
+        display: none;
+    }
+
+    .conteudo {
+        max-width: 95%;
+    }
+
+    .cards{
+        gap: 80px;
+    }
+
+}
+
+@media (max-width: 570px) {
+    header .titulo img {
+        height: 70px;
+        width: auto;
+        display: none;
+    }
 }
 
 
