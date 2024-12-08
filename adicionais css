@@ -1,0 +1,22 @@
+.conteudo{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    
+
+}
+.conteudo, p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 100;
+    font-family: sans-serif;
+}
+
+.rodape{
+    margin-top: 100px;
+    background-color: #2b2c30;
+    width: 100%;
+    padding: 40px;
+
+}
